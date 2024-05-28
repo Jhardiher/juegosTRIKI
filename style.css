@@ -22,7 +22,7 @@ h1{
 
  .contenedor{
     padding: 40px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -41,6 +41,7 @@ h1{
 
 .contenedorMarcador{
     display: flex;
+    justify-content: center;
 }
 table {
     width: 25%; /* Ancho de la tabla */
@@ -51,7 +52,7 @@ table {
 
 }
 th, td {
-    border: 1px solid black;
+    border: 5px solid var(--orange);
     padding: 8px;
     text-align: right;
 }
